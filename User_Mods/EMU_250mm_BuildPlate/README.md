@@ -48,10 +48,27 @@ Additional hardware required **per lid**:
 ## Assembly
 
 1. Print the modified lid and separate latch.
-2. Install the M2.5 heat-set insert in the provided insert pocket and allow it to cool.
+2. Install the M2 heat-set insert in the provided insert pocket and allow it to cool.
 3. Align the latch with the mounting features on the lid.
 4. Secure the latch with the M2 × 6 mm screw. Tighten until secure, taking care not to overtighten into the printed parts.
 5. Check that the lid closes and the latch engages correctly before use.
+
+## Print settings
+
+To get a clean print these settings worked well repeatedly for me
+
+In Orca, YMMV for other slicers
+1. Enable Support: Yes
+2. Supports / Type: Normal (manual), paint supports on the overhang on the hinge latch that would otherwise be unsupported
+3. Supports / Style: Snug
+4. Supports / Base Pattern: Default
+5. Supports / Top Interface Layers: 3
+6. Supports / Top Interface spacing: 0.25mm
+7. Supports / Bottom Interface spacing: 0.3mm
+
+<p align="center">
+  <img src="Latch_supports.png" alt="Screenshot of good supports" width="70%">
+</p>
 
 ---
 
